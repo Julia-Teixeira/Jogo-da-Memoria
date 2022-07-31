@@ -87,7 +87,8 @@ a{
     cursor: pointer;
 }
 .btn:hover{
-    background-color: #ccc ;
+    background-color: #ee665c;
+    color: #fff;
 }
 .btn:active{
     transform: translateY(2px);
