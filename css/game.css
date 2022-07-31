@@ -67,3 +67,21 @@ header {
     filter: saturate(0);
     opacity: 0.5;
 }
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    }
+.btn{
+    background-color: rgba(255, 255, 255, .8);
+    padding: 15px;
+    margin: 10px 0 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.btn-Reiniciar{
+    
+
+}
