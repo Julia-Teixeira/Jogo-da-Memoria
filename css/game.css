@@ -89,7 +89,6 @@ a{
 .btn:hover{
     background-color: #ccc ;
 }
-.btn-Reiniciar:active{
+.btn:active{
     transform: translateY(2px);
-    
 }

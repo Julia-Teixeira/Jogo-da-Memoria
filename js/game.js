@@ -8,6 +8,8 @@ const characteres = [
 ];
 const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
+const btnReiniciar = document.querySelector('.btn-Reiniciar');
+const btnSair = document.querySelector('.btn-sair');
 
 const createElement = (tag, className) => {
     const element = document.createElement(tag);
@@ -110,8 +112,17 @@ const startTime = () => {
 
 }
 
+function reiniciar(){
+    window.location = 'game.html';
+}
+function sair(){
+    window.location = '../index.html';
+}
 window.onload = () => {
     spanPlayer.innerHTML = localStorage.getItem('player');
     startTime();
     loadGame();
 }
+
+btnReiniciar.addEventListener('click', reiniciar);
+btnSair.addEventListener('click', sair);
