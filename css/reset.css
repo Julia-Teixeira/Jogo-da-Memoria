@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'Naruto';
+    src: url('/fonts/njnaruto.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Naruto', serif;
+}
